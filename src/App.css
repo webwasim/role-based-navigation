@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 100%;
+}
+a {
+  text-decoration: none;
+  color: #0f7cd7;
+}
+a:hover {
+  color: #0000ff;
+}
+h1,
+h2,
+h3 {
+  margin: 0 0 20px;
+}
+button:focus {
+  outline: none;
+}
+h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+h1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+p {
+  padding-bottom: 10px;
+}
+ul {
+  padding: 0;
+}
+.p20 {
+  padding: 20px;
+}
+.pad5-25 {
+  padding: 5px 20px;
+}
+.pad5-0 {
+  padding: 5px 0;
+}
+.appWrapper {
+  width: 100%;
+  font-size: 0.9rem;
+}
+.app {
+  max-width: 1366px;
+  margin: auto;
+}
+header {
+  display: flex;
+  background-color: #eee;
+  min-height: 115px;
+  flex-direction: column;
+}
+
+.logo {
+  margin-right: auto;
+  font-weight: 900;
+  font-size: 2rem;
+  color: #0000ff;
+}
+nav {
+  align-self: flex-start;
+}
+#navToggle {
+  color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0.25rem 0.65rem 0.15rem;
+  font-size: 1.25rem;
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  border-radius: 2px;
+}
+nav ul {
+  display: none;
+  list-style-type: none;
+  margin-top: 20px;
+}
+nav ul li {
+  display: block;
+  margin: 15px 5px;
+}
+main {
+  display: flex;
+  margin: 0px 0;
+  flex-direction: column;
+}
+aside {
+  background-color: #ddedfb;
+}
+article {
+  padding: 20px;
+}
+footer {
+  background-color: #eee;
+  display: flex;
+  padding: 25px;
+}
+footer ul {
+  display: flex;
+  list-style-type: none;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+footer li {
+  display: inline-block;
+  margin: 5px 10px;
+}
+.row {
+  margin-bottom: 25px;
+}
+.row label {
+  display: block;
+  padding-bottom: 5px;
+}
+.row label span {
+  color: red;
+}
+.row span.req-feedback {
+  color: red;
+  display: none;
+}
+.row.error span.req-feedback {
+  display: block;
+}
+.row.error input {
+  border: 1px solid red;
+  border-radius: 2px;
+}
+.row input {
+  padding: 5px;
+  font-size: 1rem;
+}
+.row input.long {
+  width: 250px;
+}
+.row textarea {
+  width: 250px;
+  height: 100px;
+}
+.btn {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+  cursor: pointer;
+  padding: 0.3rem 0.7rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+}
+.landingWrapper {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.landing {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.landing button {
+  margin: 10px 0;
+}
+.title {
+  text-align: right;
+  margin: 5px 0;
+}

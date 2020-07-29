@@ -1,0 +1,17 @@
+.appWrapper.dark {
+  background-color: black;
+  color : #fff;
+}
+.dark header,
+.dark footer {
+  background-color: #373737;
+}
+.dark a, .dark a:hover {
+  color:#79bffa
+}
+.dark aside {
+  background-color: #002c53;
+}
+.dark .logo {
+  color: #fff;
+}
