@@ -1,2 +1,2 @@
 # role-based-navigation
-Created with CodeSandbox
+Simple REACT app with Role based Navigation and Responsive Design
